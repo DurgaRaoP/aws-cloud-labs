@@ -94,7 +94,7 @@ pkill stress
 
 ---
 
-## 📊 Observations
+## Observations
 
 * CPU utilization reached ~100% during stress test
 * CloudWatch alarm triggered after threshold breach
