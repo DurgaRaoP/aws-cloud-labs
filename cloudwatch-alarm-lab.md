@@ -1,19 +1,19 @@
 # AWS CloudWatch Alarm Lab
 
-## 📌 Objective
+## Objective
 
 To monitor EC2 CPU utilization using Amazon CloudWatch and trigger an alarm when CPU usage exceeds a defined threshold.
 
 ---
 
-## 🧰 Services Used
+## Services Used
 
 * Amazon EC2
 * Amazon CloudWatch
 
 ---
 
-## 🖥️ Environment Setup
+## Environment Setup
 
 * Instance Type: t2.micro
 * OS: Amazon Linux
@@ -21,7 +21,7 @@ To monitor EC2 CPU utilization using Amazon CloudWatch and trigger an alarm when
 
 ---
 
-## ⚙️ Steps Performed
+## Steps Performed
 
 ### 1. Launch EC2 Instance
 
@@ -103,7 +103,7 @@ pkill stress
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * t2.micro has only 1 vCPU → multiple workers do not increase CPU capacity
 * CloudWatch metrics are not real-time (delay due to collection and evaluation)
@@ -113,7 +113,7 @@ pkill stress
 
 ---
 
-## ⚠️ Challenges Faced
+## Challenges Faced
 
 * Initial confusion with `ps aux | grep stress` showing grep process
 * Alarm not triggering due to short stress duration
@@ -121,13 +121,13 @@ pkill stress
 
 ---
 
-## 🚀 Outcome
+## Outcome
 
 Successfully implemented monitoring and alerting for EC2 CPU utilization using CloudWatch and validated behavior through load testing.
 
 ---
 
-## 📎 Commands Summary
+## Commands Summary
 
 ```bash
 # Install stress
