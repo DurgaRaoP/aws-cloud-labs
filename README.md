@@ -1,22 +1,49 @@
-# aws-cloud-labs
 # AWS Cloud Labs — Pusalapati Durga Rao
 
-AWS-trained Cloud Support Engineer based in Hyderabad.
-Hands-on projects using EC2, IAM, S3, VPC, CloudWatch.
+Cloud-focused engineer building hands-on infrastructure projects on AWS.
+Focused on Linux, cloud fundamentals, and real-world system behavior.
+
+---
 
 ## Projects
-### 1. EC2 Web Server + Linux Troubleshooting
-- Deployed Amazon Linux EC2 with nginx
-- Configured Security Groups (ports 22, 80)
-- Diagnosed SSH failures and port connectivity issues
-- Monitored with CloudWatch metrics
+
+### 1. EC2 Web Server + Monitoring
+
+* Deployed Amazon Linux EC2 instance with Nginx web server
+* Configured Security Groups (SSH, HTTP) and validated network access
+* Simulated CPU load and monitored metrics using CloudWatch alarms
+* Debugged system behavior using Linux tools (`top`, `ps`, process control)
+
+---
 
 ### 2. IAM Access Control Architecture
-- Built users, groups, roles with least privilege policies
-- Resolved AccessDenied errors by analysing policy gaps
-- Replaced access keys with EC2 IAM roles
 
-### 3. S3 Static Website + Bucket Policy
-- Hosted static site on S3 with custom bucket policy
-- Configured versioning and lifecycle rules
-- Troubleshot access-denied errors
+* Designed users, groups, and roles following least privilege principle
+* Resolved AccessDenied errors by analyzing and correcting IAM policies
+* Implemented IAM roles for secure access instead of static credentials
+
+---
+
+### 3. S3 Static Website + CloudFront CDN
+
+* Hosted static website using Amazon S3 (serverless architecture)
+* Configured bucket policies for public access
+* Integrated CloudFront CDN for HTTPS and global content delivery
+* Handled caching behavior and understood invalidation process
+
+---
+
+## Skills
+
+* AWS: EC2, S3, CloudFront, IAM, CloudWatch
+* Linux: Process management, networking basics, system monitoring
+* Networking: Ports, protocols, security groups
+* Concepts: CDN, caching, serverless architecture
+
+---
+
+## Current Focus
+
+* Advancing AWS + Linux fundamentals
+* Building real-world cloud projects
+* Preparing for cloud engineering roles
