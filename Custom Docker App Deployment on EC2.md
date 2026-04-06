@@ -1,4 +1,4 @@
-# Project 4: Custom Docker App Deployment on EC2
+# Custom Docker App Deployment on EC2
 
 ## Objective
 
