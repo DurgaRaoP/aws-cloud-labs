@@ -1,7 +1,3 @@
-Good constraint. Clean, professional, no clutter. Use this directly.
-
----
-
 Project 4: Custom Docker App Deployment on EC2
 
 Overview
